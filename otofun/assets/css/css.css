@@ -7,7 +7,7 @@
 }
 
 p {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 ul {
@@ -68,7 +68,7 @@ ul {
 .div-box-logo-menu .menu ul li a {
   line-height: 16px;
   color: #000000;
-  font-size: 1rem;
+  font-size: 1em;
   letter-spacing: .02em;
   text-transform: uppercase;
   font-weight: bolder;
@@ -126,5 +126,184 @@ ul {
 
 .div-box-logo-menu .menu ul li:last-child {
   border-right: 0;
+}
+
+.sidebar .title-sidebar {
+  background-color: #c8102e;
+  color: #f9f9f9;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .5rem;
+}
+
+.sidebar .content-sidebar-product ul {
+  border: 1px solid #eee;
+  font-size: 17px;
+}
+
+.sidebar .content-sidebar-product ul li {
+  padding: 10px;
+  list-style: none;
+  margin-bottom: .3em;
+  text-align: left;
+  margin: 0;
+  border-top: 1px solid #ececec;
+}
+
+.sidebar .content-sidebar-product ul li a {
+  color: #000;
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+.sidebar .content-sidebar-product ul li:hover a {
+  color: #aeaeaeae;
+}
+
+.sidebar .content-sidebar-contact {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.sidebar .content-sidebar-newws .box-1 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.sidebar .content-sidebar-newws .box-1 a img {
+  width: 48%;
+}
+
+.sidebar .content-sidebar-newws .box-1 a h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  padding-left: 5px;
+}
+
+.sidebar .content-sidebar-newws .box-1:hover h3 {
+  color: #aeaeaeae;
+}
+
+.main .box-product-1 .title {
+  border-bottom: 2px solid #c8102e;
+  background: #eee;
+}
+
+.main .box-product-1 .title h3 {
+  background-color: #c8102e;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .4rem 1.5rem;
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.main .box-product-1 .title h3 a {
+  color: #f9f9f9;
+}
+
+.main .temple-product .ml {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main .temple-product .box-is-one {
+  border: 1px solid #eee;
+  -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+
+.main .temple-product .box-is-one .img a img {
+  width: 100%;
+}
+
+.main .temple-product .box-is-one .content {
+  padding: 0.5rem 0;
+}
+
+.main .temple-product .box-is-one .content a {
+  text-decoration: none;
+}
+
+.main .temple-product .box-is-one .content a h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.main .temple-product .box-is-one .content a .price {
+  color: #c8102e;
+  font-weight: bold;
+}
+
+.news .title {
+  position: relative;
+}
+
+.news .title h3 {
+  background-color: #c8102e;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .4rem 1.5rem;
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.news .title h3 a {
+  color: #f9f9f9;
+}
+
+.news .title h3::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #aeaeaeae;
+  bottom: 18px;
+  left: 0;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.news .box-news-index .ml {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.news .box-news-index .box-news-smal {
+  border: 1px solid #eee;
+  -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+
+.news .box-news-index .box-news-smal a {
+  text-decoration: none;
+  color: #000;
+}
+
+.news .box-news-index .box-news-smal a .img img {
+  width: 100%;
+}
+
+.news .box-news-index .box-news-smal a .content h3 {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.news .box-news-index .box-news-smal a .content h4 {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #c8102e;
 }
 /*# sourceMappingURL=css.css.map */
