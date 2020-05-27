@@ -187,12 +187,12 @@ ul {
   color: #aeaeaeae;
 }
 
-.main .box-product-1 .title {
+.main .box-product-1 .title, .achive .box-product-1 .title {
   border-bottom: 2px solid #c8102e;
   background: #eee;
 }
 
-.main .box-product-1 .title h3 {
+.main .box-product-1 .title h3, .achive .box-product-1 .title h3 {
   background-color: #c8102e;
   font-weight: bold;
   text-transform: uppercase;
@@ -202,41 +202,41 @@ ul {
   margin-bottom: 0;
 }
 
-.main .box-product-1 .title h3 a {
+.main .box-product-1 .title h3 a, .achive .box-product-1 .title h3 a {
   color: #f9f9f9;
 }
 
-.main .temple-product .ml {
+.main .temple-product .ml, .achive .temple-product .ml {
   margin-left: 0;
   margin-right: 0;
 }
 
-.main .temple-product .box-is-one {
+.main .temple-product .box-is-one, .achive .temple-product .box-is-one {
   border: 1px solid #eee;
   -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
           box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
   padding: 0;
 }
 
-.main .temple-product .box-is-one .img a img {
+.main .temple-product .box-is-one .img a img, .achive .temple-product .box-is-one .img a img {
   width: 100%;
 }
 
-.main .temple-product .box-is-one .content {
+.main .temple-product .box-is-one .content, .achive .temple-product .box-is-one .content {
   padding: 0.5rem 0;
 }
 
-.main .temple-product .box-is-one .content a {
+.main .temple-product .box-is-one .content a, .achive .temple-product .box-is-one .content a {
   text-decoration: none;
 }
 
-.main .temple-product .box-is-one .content a h3 {
+.main .temple-product .box-is-one .content a h3, .achive .temple-product .box-is-one .content a h3 {
   font-size: 20px;
   font-weight: bold;
   color: #000000;
 }
 
-.main .temple-product .box-is-one .content a .price {
+.main .temple-product .box-is-one .content a .price, .achive .temple-product .box-is-one .content a .price {
   color: #c8102e;
   font-weight: bold;
 }
@@ -303,6 +303,34 @@ ul {
   font-size: 18px;
 }
 
+.box-header-product .short-description .title-ss {
+  position: relative;
+}
+
+.box-header-product .short-description .title-ss::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 3px;
+  background-color: #c8102e;
+}
+
+.box-header-product .short-description .price {
+  font-size: 1.5em;
+}
+
+.box-header-product .short-description .price span {
+  color: #c8102e;
+  font-size: 1.7em;
+}
+
+.box-header-product .short-description .dess-main-single {
+  font-size: 15px;
+  font-style: italic;
+}
+
 #sync1 .item {
   background: #0c83e7;
   padding: 80px 0px;
@@ -365,5 +393,9 @@ ul {
 
 .footer {
   background-color: #c8102e;
+}
+
+.footer p {
+  color: #fff;
 }
 /*# sourceMappingURL=css.css.map */
